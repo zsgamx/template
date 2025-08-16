@@ -35,7 +35,7 @@
     .poster-container img {
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     .play-button {
@@ -85,7 +85,7 @@
       width: 60px;
       height: 60px;
       border-radius: 8px;
-      object-fit: cover;
+      object-fit: contain;
     }
 
     .info-left .game-text {
@@ -174,7 +174,7 @@
 
   <script>
     // Set poster + iframe URL here
-    const posterUrl = "poster.jpg";
+    const posterUrl = "https://img.gamedistribution.com/8593f8d7add14ad398d9cece72ee7283-512x512.jpg";
     const gameUrl = "https://example.com/game";
 
     document.getElementById("posterImage").src = posterUrl;
