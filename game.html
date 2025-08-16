@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Title - ZSGames</title>
+  <meta name="description" content="Play Game Title online for free at ZSGames.">
+  <link rel="stylesheet" href="/style.css"> <!-- optional external css -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #eee;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background: #222;
+      padding: 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      color: #4db8ff;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1rem;
+    }
+
+    .game-container {
+      width: 100%;
+      max-width: 960px;
+      aspect-ratio: 16 / 9;
+      background: #000;
+      border: 2px solid #333;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .game-container iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .game-details {
+      max-width: 960px;
+      margin-top: 1.5rem;
+      background: #1c1c1c;
+      padding: 1rem 1.5rem;
+      border-radius: 8px;
+      line-height: 1.6;
+    }
+    .game-details h2 {
+      margin-top: 0;
+      color: #4db8ff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #222;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ZSGames</h1>
+  </header>
+
+  <main>
+    <!-- Game Embed -->
+    <div class="game-container">
+      <!-- Replace the src below with your game link -->
+      <iframe src="your-game.html" allowfullscreen></iframe>
+    </div>
+
+    <!-- Game Details -->
+    <div class="game-details">
+      <h2>Game Title</h2>
+      <p>
+        Write a detailed description of the game here.  
+        Example: "Game Title is an exciting action game where you fight enemies, collect power-ups, and level up to become stronger. Play now for free on ZSGames!"
+      </p>
+      <p><strong>Controls:</strong> Arrow keys to move, Space to jump.</p>
+      <p><strong>Category:</strong> Action / Adventure</p>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 ZSGames. All rights reserved.
+  </footer>
+</body>
+</html>
